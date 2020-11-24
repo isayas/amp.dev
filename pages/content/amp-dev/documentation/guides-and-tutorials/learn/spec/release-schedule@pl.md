@@ -27,7 +27,7 @@ Nowa wersja AMP jest wypychana na wszystkie strony AMP co tydzień we wtorek. **
 
 Środowisko uruchomieniowe i rozszerzenia AMP są dostarczane przez różne *kanały wydań*. Każdy kanał służy programistom oraz samemu projektowi AMP HTML. Zobacz sekcję [kadencja wydawnicza](#release-cadence), aby dowiedzieć się więcej o tym, jak i kiedy kod z repozytorium [`ampproject/amphtml`](https://github.com/ampproject/amphtml) zmienia się w kompilacje wersji.
 
-Aby określić, czy PR włączono do któregokolwiek z poniższych kanałów wydań, należy poszukać etykiet GitHub *PR Use: In Canary*, *PR Use: In Production* lub *PR Use: In LTS* (więcej szczegółów znajdziesz w sekcji na temat [ustalania, czy Twoja zmiana jest w danej wersji](#Determining-if-your-change-is-in-a-release)).
+Aby określić, czy PR włączono do któregokolwiek z poniższych kanałów wydań, należy poszukać etykiet GitHub *PR Use: In Canary*, *PR Use: In Production* lub *PR Use: In LTS* (więcej szczegółów znajdziesz w sekcji na temat [ustalania, czy Twoja zmiana jest w danej wersji](#determining-if-your-change-is-in-a-release)).
 
 ### Conocne <a name="nightly"></a>
 
@@ -69,7 +69,7 @@ Kanał wydawania **lts** zapewnia poprzednią **stabilną ** kompilację w odst�
 
 W przypadku, gdy drugi poniedziałek miesiąca wypada w święto, promocja zostanie przeprowadzona po zakończeniu [zamrożenia wydania](#release-freezes).
 
-Ważne: wydawcy korzystający z kanału wydania **lts** nie powinni używać nowo wprowadzonych funkcji. Ze względu na dłuższy cykl wydanie **lts** może być nawet siedem tygodni za `HEAD` z [`ampproject/amphtml`](https://github.com/ampproject/amphtml). Zobacz sekcję [Ustalanie, czy Twoja zmiana jest w danej wersji](#Determining-if-your-change-is-in-a-release), aby sprawdzić, czy zmiana będzie gotowa z wybranym cyklem wydania.
+Ważne: wydawcy korzystający z kanału wydania **lts** nie powinni używać nowo wprowadzonych funkcji. Ze względu na dłuższy cykl wydanie **lts** może być nawet siedem tygodni za `HEAD` z [`ampproject/amphtml`](https://github.com/ampproject/amphtml). Zobacz sekcję [Ustalanie, czy Twoja zmiana jest w danej wersji](#determining-if-your-change-is-in-a-release), aby sprawdzić, czy zmiana będzie gotowa z wybranym cyklem wydania.
 
 ## Ustalanie, czy Twoja zmiana jest w danej wersji <a name="determining-if-your-change-is-in-a-release"></a>
 
